@@ -1,7 +1,7 @@
 from tkinter import *
 import tkinter.messagebox as tm
 
-class Student:
+class Store:
 
     def __init__(self,root):
         self.root = root
@@ -391,6 +391,6 @@ class Student:
 if __name__ == "__main__":
 
     root = Tk()
-    app = Student(root)
+    app = Store(root)
     root.mainloop() 
     
